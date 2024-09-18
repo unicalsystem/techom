@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ChatGPT Integration</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <h1>Chat with GPT</h1>
+    <div>
+        <textarea id="user-input" rows="4" cols="50"></textarea><br>
+        <button id="send">Send</button>
+    </div>
+    <div>
+        <h2>Response:</h2>
+        <p id="response"></p>
+    </div>
+
+    <script>
+        $(document).ready(function(){
+            $("#send").click(function(){
+                var userInput = $("#user-input").val();
+
+                $.ajax({
+                    url: "https://unical.smartrecruitmentsolution.com/chatgpt.php",
+                    type: "POST",
+                    data: JSON.stringify({ message: userInput }),
+                    contentType: "application/json",
+                    success: function(response){
+                        $("#response").text(response);
+                    },
+                    error: function(xhr, status, error){
+                        console.error("Error: " + error);
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

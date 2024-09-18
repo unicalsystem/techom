@@ -1,0 +1,194 @@
+
+.whatsapp-container {
+    position: right;
+}
+.whatsapp-chat-widget {
+    position: absolute;
+    top: 100%;
+    right: 0%;
+    width: 350px;
+    height: 541px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    z-index: 9999;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    pointer-events: none;
+}
+.whatsapp-chat-widget.active {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+    position: fixed;
+    top: 15px;
+    right: 20px;
+}
+.chat-header {
+    background-color: #075e54;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+.chat-header-icons {
+    margin-left: auto;
+}
+.chat-header-icons i {
+    margin-left: 10px;
+}
+.close-chat {
+    margin-left: 10px;
+    cursor: pointer;
+}
+.chat-body {
+    height: 500px;
+    overflow-y: auto;
+    background-color: #e5ddd5;
+}
+.inbox-item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+.inbox-item:hover {
+    background-color: #f0f0f0;
+}
+.profile-pic {
+    width: 50px;
+    height: 50px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.inbox-content {
+    flex-grow: 1;
+}
+.inbox-name {
+    font-weight: bold;
+}
+.inbox-message {
+    color: #777;
+    font-size: 0.9em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.conversation-header {
+    background-color: #075e54;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+.back-to-inbox {
+    margin-right: 15px;
+    cursor: pointer;
+}
+.messages {
+    padding: 15px;
+    height: 380px;
+    overflow-y: auto;
+}
+.message {
+    max-width: 70%;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    clear: both;
+}
+.message p {
+    margin: 0;
+}
+.message .time {
+    font-size: 10px;
+    color: #999;
+    text-align: right;
+}
+.incoming {
+    background-color: white;
+    float: left;
+}
+.outgoing {
+    background-color: #dcf8c6;
+    float: right;
+}
+.chat-footer {
+    background-color: #f0f0f0;
+    padding: 15px;
+}
+#message-input-area {
+    display: flex;
+    align-items: center;
+}
+#message-input-area input {
+    flex-grow: 1;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    margin: 0 10px;
+}
+#message-input-area i {
+    color: #999;
+    font-size: 20px;
+    margin: 0 5px;
+}
+.send-message-btn, .send-template-btn {
+    background-color: #075e54;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+#template-message-area {
+    text-align: center;
+}
+#template-message-area p {
+    margin-bottom: 10px;
+    color: #555;
+}
+.send-template-btn {
+    border-radius: 20px;
+    width: auto;
+    padding: 10px 20px;
+}
+.template-message-container {
+    display: flex;
+    align-items: center;
+}
+
+.template-message-container p {
+    margin: 0;
+    margin-right: 10px; 
+}
+
+.template-message-container .send-template-btn {
+    padding: 0.5rem 1rem; 
+}
+
+.inbox-item.unread {
+    background-color: #DCF8C6;
+    font-weight: bold;
+}
+.unread-count {
+    background-color: #25D366;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+    margin-left: 5px;
+}
+.inbox-meta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}

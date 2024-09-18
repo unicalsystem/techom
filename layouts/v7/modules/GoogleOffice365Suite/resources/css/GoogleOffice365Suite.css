@@ -1,0 +1,372 @@
+/*******************************************************************************
+ * The content of this file is subject to the CRMTiger Pro license.
+ * ("License"); You may not use this file except in compliance with the License
+ * The Initial Developer of the Original Code is https://crmtiger.com/
+ * Portions created by CRMTiger.com are Copyright(C) CRMTiger.com
+ * All Rights Reserved.
+  ******************************************************************************/
+
+#emailBackButton{
+	margin-right: -54px;
+}
+
+#dashboardView{
+	margin-top: 150px;
+	margin-left: 150px;	
+}
+
+.dashboard3{
+	border: 1px solid;
+}
+
+b{
+	font-size: 13px;
+}
+
+.company-logo{
+	margin-left:-10px;
+}
+
+.contactsDashboard{
+	margin-top: 150px;
+}
+.googleExtension{
+	margin-left: -29px;
+}
+/*#enableSyncGoogle{
+	margin-left: 935px;
+}*/
+#contactsBackButton{
+	margin-right: -105px;
+}
+.dashboard1{
+	width: 98%;
+	margin: auto;
+}
+.step1{
+	width: 70%;
+	margin: 15%;
+}
+.dashstep1{
+	font-size: 18px;
+}
+.dashdescription{
+	font-size: 12px;
+	cursor: pointer;
+}
+.selectBtn{
+	margin-bottom: 10px;
+}
+.dashdescriptionstep3{
+	font-size: 12px;
+	height:15px;
+	display: inline-block;
+	width: 250px;
+	white-space: nowrap;
+	overflow: hidden !important;
+	text-overflow: ellipsis;
+	cursor: pointer;
+
+}
+.goBack{
+	font-size:16px;
+}
+.googleApiSettings{
+	margin-left: -15px;
+	height: 30px;
+}
+#editBtn{
+	margin-right: -15px;
+}
+.contactsDashboardBtn{
+	margin-right: 10px;
+}
+#moreInfo{
+	color: blue;
+	text-decoration: none;
+	border-bottom: 1px solid black;
+}
+.contactBackBtn{
+	margin-right: 34px;
+
+}
+.showPanelBg{
+	padding: 10px;
+	width: 100%;
+}
+.contactsSettingspage{
+	width: 98%;
+}
+.setupCredential{
+	padding-left:10px;
+}
+.dvtCellLabel{
+	background:white;
+}
+#generateToken{
+	vertical-align: inherit;
+}
+.notValidSession{
+	width: 70%;
+	margin: 15%;
+}
+.lblValidSession{
+	text-align: center;
+	font-size:16px;
+}
+#authUrl{
+	vertical-align: inherit;
+	color:#1811e8
+}
+.cancelBtn{
+	text-align: center;
+	font-size:14px;
+}
+.rightAlignment{
+	color:#FF0000
+}
+.mainContactsSettings{
+	width: 100%;
+}
+.availableCalendar{
+	margin:0;
+	width:95%;
+	height:100%;
+}
+.addGroup{
+	color:#FFFFFF ! important;
+	width:100%;
+	font-size:11px !important;
+	font-weight: bold;
+}
+#selectedCalendar{
+	margin:0;
+	width:95%;
+	height:100%;
+}
+.saveBtn{
+	width:70px;
+	color:#FFFFFF ! important;
+	font-weight: bold;
+}
+.showPanelBg{
+	padding: 10px;
+}
+.syncGoogleData{
+	color:#FFFFFF ! important;
+	font-weight: bold;
+}
+.batch{
+	width: 171px;
+	margin-top: 20px;
+	margin-left: 15px;
+}
+.minutes{
+	width: 147px;
+	margin-top: 20px;
+}
+.dateRange{
+	margin-bottom: 3px
+}
+
+.calBackBtn{
+        margin: 10px 1px;
+}
+
+/* margin utility */
+
+.mr-24{
+	margin-left: 24px !important;
+}
+
+.mt-10{
+        margin-top: 10px;
+}
+
+.mt-15{
+	margin-top: 15px;
+}
+.mt-20{
+	margin-top: 20px;
+}
+
+.mt-25{
+	margin-top: 20px;
+}
+
+.mr-5{
+	margin-right: 5px;
+}
+
+.mt-5{
+	margin-top: 5px;
+}
+.m-20{
+	margin: 20px;
+}
+.ml-25per{
+	margin-left: 25%;
+}
+.ml-14pr{
+        margin-left: 14%;	
+}
+
+.mb-15{
+	margin-bottom: 15px;
+}
+
+.custom-select2{
+    margin-bottom: 17px;
+    margin-left: 28px;
+}
+
+.dt-custom{
+    display: block;
+    text-align: center; 
+    color: black;
+}
+
+/* Width utility */
+
+.w-25-pr{
+	width: 25% !important;
+}
+
+.justify-content-space-even{
+	justify-content: space-evenly !important;
+}
+
+.w-100-btn{
+	width: 100px !important;
+}
+
+.signin_btn{
+    width: 50%;
+    margin-left: 50px;
+}
+
+.br-3{
+    border-radius: 3px;
+}
+
+
+/*step3*/
+
+.manual-sync {
+	margin-top: 30px;
+	margin-left: 50px;
+}
+.manual-sync p {
+	font-size: 16px;
+}
+.autosync{
+	width: 147px !important;
+	margin: 0 !important;
+}
+.note b{
+	font-size: 22px;
+}
+.note li{
+	font-size: 18px;
+	margin: 10px 0;
+}
+.sync-table th{
+	text-align: center;
+	font-size: 16px;
+	padding: 25px !important;
+	color: #2C3B49;
+}
+.sync-table td{
+	text-align: center;
+	font-size: 14px;
+	padding: 15px !important;
+	color: #888888;
+}
+.table-stripedE9E9E9>tbody>tr:nth-child(even) {
+	background-color: #E9E9E9;
+}
+.sync-table{
+	border: 1px solid;
+	border-collapse: collapse;
+}
+.sync-table td,.sync-table th{
+	border-right: 1px solid #888888 !important;
+}
+
+#s2id_syncToDate{
+	width: 100%;
+}
+
+
+
+
+/* Radhika css start */
+
+/* 16-06-2023 */
+
+.features-wrapper .features-wrapper-section .dt-custom span b {
+	display: inline-block;
+    min-height: 40px;
+    word-break: break-all;
+}
+.info-line {
+   margin: 0 15px 25px 15px !important;
+}
+.features-wrapper-section-box {
+	border-left: 6px solid #3cb878;
+    box-shadow: 0px 4px 9.6px 0.4px rgba(51, 71, 91, 0.2);
+    padding: 30px 25px;
+    margin: 0 0 30px 0;
+}
+.features-wrapper-section-1 {
+	border-left: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+}
+.features-wrapper-section-button {
+    text-align: center;
+}
+.features-wrapper .features-wrapper-section {
+	width: 25% !important;
+}
+.features-wrapper .features-wrapper-section-button a.signin_btn {
+	margin: 0;
+	width: auto;
+}
+
+
+@media (max-width: 1200px) {
+	.features-wrapper .features-wrapper-section {
+		width: 35% !important;
+	}
+}
+
+@media (max-width: 768px) {
+	.features-wrapper .features-wrapper-section {
+		width: 45% !important;
+	}
+}
+
+@media (max-width: 600px) {
+	.features-wrapper .features-wrapper-section {
+		width: 70% !important;
+	}
+}
+
+@media (max-width: 500px) {
+	.features-wrapper .features-wrapper-section {
+		width: 90% !important;
+	}
+}
+
+/* 16-06-2023 */
+
+/* Radhika css End */
+
+
+
+
+
+
+
+

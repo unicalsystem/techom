@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<schema>
+	<tables>
+		<table>
+			<name>`vtiger_gptintegration_config`</name>
+			<sql><![CDATA[CREATE TABLE `vtiger_gptintegration_config` (
+                `id` int NOT NULL AUTO_INCREMENT,
+                `provider` varchar(50) DEFAULT NULL,
+                `isactive` int DEFAULT NULL,
+                `org_id` varchar(255) DEFAULT NULL,
+                `api_key` varchar(255) DEFAULT NULL,
+                `enc_key` varchar(255) DEFAULT NULL,
+                PRIMARY KEY (`id`),
+                KEY `index_id` (`id`)
+              ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3]]></sql>
+		</table>
+		<table>
+			<name>`vtiger_gptintegration_logs`</name>
+			<sql><![CDATA[CREATE TABLE `vtiger_gptintegration_logs` (
+                `id` int NOT NULL AUTO_INCREMENT,
+                `requested_user` varchar(50) NOT NULL,
+                `requested_on` datetime DEFAULT NULL,
+                `provider` varchar(50) DEFAULT NULL,
+                `gptintegration_prompt` longtext,
+                `gptintegration_response` longtext,
+                `tokens_consumed` text,
+                PRIMARY KEY (`id`)
+              ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3]]></sql>
+		</table>
+	</tables>
+</schema>
